@@ -1,0 +1,249 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html, body{
+	background-color:#222;
+}
+
+navbar-fixed-top{
+	padding-bottom:2em !important;
+}
+
+
+
+
+
+
+.loogo{
+	height:3em;
+	width:12em;
+}
+
+
+.topper{
+	padding-top:5em;
+}
+
+
+.vidleft{
+	float:left;
+}
+
+.vidright{
+	float:right;
+}
+
+
+
+.topleft{
+	width:50%;
+	height:20em;
+	background-color:#a5f4ff;
+	float:left;
+	border-radius:5%;
+}
+
+
+.topright{
+	width:50%;
+	height:20em;
+	background-color:#ffadff;
+	float:right;
+	border-radius:5%;
+}
+
+
+.secondshelfleft{
+	width: 20%;
+	height: 15em;
+	background-color:#a5ffbf;
+	border-radius:5%;
+	float:left;
+	display: inline;
+	padding-top:2em;
+}
+
+
+.secondshelfmidone{
+	width: 20%;
+	height: 15em;
+	background-color:#ffb7a3;
+	border-radius:5%;
+	display: inline;
+	float:left;
+	padding-top:2em;
+}
+
+
+.secondshelfmidtwo{
+	width: 20%;
+	height: 15em;
+	background-color:#ddaaff;
+	border-radius:5%;
+	display: inline;
+	float:left;
+	padding-top:2em;
+}
+
+
+.secondshelfmidthree{
+	width: 20%;
+	height: 15em;
+	background-color:#a7b4f9;
+	border-radius:5%;
+	display: inline;
+	float:left;
+	padding-top:2em;
+}
+
+.secondshelfright{
+	width: 20%;
+	height: 15em;
+	background-color:#f4f9a7;
+	border-radius:5%;
+	display: inline;
+	float:right;
+	padding-top:2em;
+}
+
+
+.boxcontainer{
+	width:100%;
+}
+
+
+.thirdleft{
+	width:75%;
+	height:15em;
+	background-color:#f4f9a7;
+	display: inline;
+	float:left;
+	border-radius:5%;
+}
+
+.thirdright{
+	width:25%;
+	height:15em;
+	background-color:#9d65a5;
+	display: inline;
+	float:right;
+	border-radius:5%;
+}
+
+
+
+.paddington{
+	width:100%;
+	height:30em;
+	padding-bottom:70em;
+}
+
+.fourthleft{
+	width: 20%;
+	height: 15em;
+	background-color:#a5f4ff;
+	border-radius:5%;
+	float:left;
+	display: inline;
+}
+
+
+.fourthlefttwo{
+	width: 20%;
+	height: 15em;
+	background-color:#b4ffe5;
+	border-radius:5%;
+	display: inline;
+	float:left;
+}
+
+.fourthright{
+	width:60%;
+	height:15em;
+	background-color:#ffb7a3;
+	float:right;
+	display:inline;
+	border-radius:5%;
+}
+
+
+
+.logoboxr{
+	float:right;
+	bottom: 0px;
+	border-radius:50%;
+	height:5em;
+	width:5em;
+}
+
+.logoboxl{
+	float:left;
+	bottom: 0px;
+	border-radius:50%;
+	height:5em;
+	width:5em;
+}
+
+
+.bio{
+	margin-top:0em;
+	margin-bottom:2em;
+	margin-left:1em;
+	height:65%;
+	width:50%;
+	border-radius:20%;
+	border: .2em #222 solid;
+}
+
+.studio{
+	margin-top:.3em;
+	margin-left:.3em;
+	margin-right:0;
+	color:white;
+	font-family:fantasy;
+	font-size:3em;
+}
+
+
+.studvid{
+	padding:2em;
+
+}
+
+
+
+.bioo{
+	margin-top:1px;
+	padding-top:1em;
+	padding-left:2em;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
